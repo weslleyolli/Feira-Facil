@@ -29,92 +29,107 @@ textarea:focus, input:focus {
     outline: 0;
 }
 
+img {
+    max-width: 70%;
+    height: auto;
+}
+
 .container-logo {
-    position: absolute;
-    top: 116px;
-    left: 70px;
+position: absolute;
+top: 0;
+left: 0;
+margin: 10px 2rem;
 }
 
 .ballOne {
+    display: flex;
+    justify-content: end;
     position: absolute;
     top: 0;
     right: 0;
 }
 
 .ballTwo {
+    width: fit-content;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
 
 }
 
 .container-login {
-    height: 850px;
-    width: 1100px;
+    height: 60%;
+    width: 35%;
     background-color: white;
     z-index: 2;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.07);
-
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    gap: 3%;
 
     position: relative;
 }
 
 .container-login-title {
-    font-size: 70px;
-    margin-top: 2rem;
+    font-size: 3.375rem;
     
 }
 
 .container-login-inputs{
-    height: 60%;
-    width: 80%;
-    font-size: 35px;
-
-    margin-bottom: 8rem;
+    height: 50%;
+    width: 70%;
+    font-size: 2rem;
 
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 1.5rem;
 }
 
 .container-login-inputs input {
-    height: 70px;
+    height: 50%;
     width: 100%;
     border-radius: 10px;
     border: 3px solid #D7D7D7;
 }
 
-
-.container-login-buttons {
-    width: 70%;
+.container-login-email {
     display: flex;
-    justify-content: space-evenly;
-
-    position: absolute;
-    bottom: 10rem;
+    flex-direction: column;
+    gap: 20px;
 }
 
-button {
-    height: 80px;
-    width: 20rem;
+
+.container-login-buttons {
+    margin-bottom: 10%;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+
+}
+.button-forget {
+    text-align: end;
+}
+
+.container-login-buttons button {
+    height: 100%;
+    width: 50%;
 }
 
 #enter {
     background-color: var(--button-enter) ;
     border-style: none;
     border-radius: 10px;
+    padding: 5px;
 
-    font-size: 40px;
+    font-size: 1.3rem;
     color: var(--background);
 }
 
 #enter a:link {
-    color:var(--button-enter);
+    color:var(--background);
     text-decoration:none;
 }
 
@@ -127,7 +142,7 @@ button {
     background-color: transparent;
     border-style: none;
     color: var(--button-enter);
-    font-size: 40px;
+    font-size: 1.3rem;
 }
 
 #register a:link {
@@ -138,4 +153,15 @@ button {
 #register a:visited {
     color:var(--button-enter);
     text-decoration:none;
+}
+
+#forget {
+    background-color: transparent;
+    border-style: none;
+    color: var(--button-enter);
+    font-size: 1.3rem;
+}
+
+@media (max-width: 900px) {
+
 }

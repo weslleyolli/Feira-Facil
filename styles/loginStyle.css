@@ -162,6 +162,12 @@ margin: 10px 2rem;
     font-size: 1.3rem;
 }
 
-@media (max-width: 900px) {
+#forget a:link {
+    color:var(--button-enter);
+    text-decoration:none;
+}
 
+#forget a:visited {
+    color:var(--button-enter);
+    text-decoration: none;
 }

@@ -23,6 +23,7 @@ body {
     position: relative;
 }
 
+
 textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
@@ -112,9 +113,29 @@ button {
     color: var(--background);
 }
 
+#enter a:link {
+    color:var(--button-enter);
+    text-decoration:none;
+}
+
+#enter a:visited {
+    color:var(--background);
+    text-decoration:none;
+}
+
 #register {
     background-color: transparent;
     border-style: none;
     color: var(--button-enter);
     font-size: 40px;
+}
+
+#register a:link {
+    color:var(--button-enter);
+    text-decoration:none;
+}
+
+#register a:visited {
+    color:var(--button-enter);
+    text-decoration:none;
 }

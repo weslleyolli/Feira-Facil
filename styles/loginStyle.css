@@ -4,3 +4,117 @@
     box-sizing: border-box;
     
 }
+
+:root {
+    --background : #fff;
+    --button-enter: #00AA95;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.container-logo {
+    position: absolute;
+    top: 116px;
+    left: 70px;
+}
+
+.ballOne {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ballTwo {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+}
+
+.container-login {
+    height: 850px;
+    width: 1100px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.07);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+}
+
+.container-login-title {
+    font-size: 70px;
+    margin-top: 2rem;
+    
+}
+
+.container-login-inputs{
+    height: 60%;
+    width: 80%;
+    font-size: 35px;
+
+    margin-bottom: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.container-login-inputs input {
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #D7D7D7;
+}
+
+
+.container-login-buttons {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+
+    position: absolute;
+    bottom: 10rem;
+}
+
+button {
+    height: 80px;
+    width: 20rem;
+}
+
+#enter {
+    background-color: var(--button-enter) ;
+    border-style: none;
+    border-radius: 10px;
+
+    font-size: 40px;
+    color: var(--background);
+}
+
+#register {
+    background-color: transparent;
+    border-style: none;
+    color: var(--button-enter);
+    font-size: 40px;
+}

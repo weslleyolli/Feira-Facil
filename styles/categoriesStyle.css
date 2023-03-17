@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background : #fff;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+
+    border: 1px solid red;
+}

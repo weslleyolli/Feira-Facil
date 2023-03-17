@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: #fff;
+}
+
+header{
+    position: absolute;
+    width: 100vw;
+    height: 110px;
+
+    background: #A5E887;
+}
+
+#LogoFeira{
+    position: absolute;
+    height: 80%;
+    width: 120px;
+    left: 25px;
+    top: 12px;
+}
+
+.search{
+    position: absolute;
+    width: 350px;
+    height: 45px;
+    left: 230px;
+    top: 30px;
+
+    background: #fff;
+    border-radius: 10px;
+}
+
+#LogoFind{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 11px;
+    top: 8px;
+}
+
+.text-search input[type="text"] {
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    left: 50px;
+    top: 8px;
+
+    margin-left: 10px;
+
+    border: none;
+    outline: none;
+
+    color: #acacac;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+#LogoUser{
+    position: absolute;
+    width: 30px;
+    height: 31px;
+    left: 92%;
+    top: 38px;
+}
+
+#LogoChat{
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 95%;
+    top: 38px;
+}
+
+.container{
+    position: absolute;
+
+    width: 100vw;
+    height: 510px;
+    top: 120px;
+}
+
+#Hortifrutas{
+    position: relative;
+    width: 100vw;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 5px;
+}
+
+#ProfileBanca{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    left: 220px;
+    top: 20px;
+}
+
+.banca h2{
+    position: absolute;
+    width: 280px;
+    height: 35px;
+    left: 390px;
+    top: 340px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #1C1B1F;
+}
+
+#Avaliacao{
+    position: absolute;
+
+    width: 11px;
+    height: 10px;
+    top: 354px;
+    left: 585px;
+}
+
+.banca p{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 600px;
+    top: 352px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #00AA95;
+}
+
+.banca h4{
+    position: absolute;
+    width: 190px;
+    height: 30px;
+    left: 1600px;
+    top: 342px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #00AA95;
+}
+
+.search-horti{
+    position: absolute;
+    width: 58vw;
+    height: 45px;
+    left: 230px;
+    top: 440px;
+
+    background: #e7e7e7;
+    border-radius: 10px;
+}
+
+.text-search-horti input[type="text"] {
+    position: absolute;
+    width: 54vw;
+    height: 28px;
+    left: 50px;
+    top: 8px;
+    background: #e7e7e7;
+
+    margin-left: 10px;
+
+    border: none;
+    outline: none;
+
+    color: #acacac;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    border-radius: 10px;
+}
+
+.chat{
+    position: absolute;
+    width: 17vw;
+    height: 45px;
+    left: 1360px;
+    top: 440px;
+
+    background: #e7e7e7;
+    border-radius: 10px;
+}
+
+.chat #LogoChat{
+    position: relative;
+    left: 8px;
+    top: 9px;
+}
+
+#Inicio-Chat{
+    position: absolute;
+    left: 58px;
+    top: 12px;
+    width: 250px;
+    text-align: left;
+
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    padding: 0;
+    color: #acacac;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.lista-produtos{
+    position: absolute;
+    left: 230px;
+    top: 540px;
+
+    border-color: red;
+    border-style: dashed;
+}
+
+#Apple{
+    height: 100px;
+    width: 100px;
+
+    border-radius: 8px;
+    border: 1px solid #E7E7E7;
+}
+
+#preco-com-desconto{
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+
+    color: #00AA95;
+}
+
+.desconto-1{
+    border-radius: 5px;
+    background: #00AA95;
+    color: #fff;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.preco-sem-desconto{
+    
+    
+    color: #00AA95;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.info-produto h5{
+    color: #686868;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+
+}
+
+.info-produto p{
+    color: #969696;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 29px;
+
+}

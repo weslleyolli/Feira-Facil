@@ -236,12 +236,31 @@ header{
 
 ul{
     list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin-bottom: 10px;
+    flex-basis: calc(17% - 10px);
+}
+
+.produtos{
+    margin-left: 220px;
+    margin-top: 120px;
+    width: 1470px;
+    height: 250px;
+
+    border: black;
+    border-style: dashed;
 }
 
 .lista-produtos{
-    position: absolute;
-    left: 230px;
-    top: 540px;
 
     border-color: red;
     border-style: dashed;
@@ -252,7 +271,41 @@ ul{
     width: 100px;
 
     border-radius: 8px;
-    border: 1px solid #E7E7E7;
+}
+
+#Papaya{
+    height: 105px;
+    width: 105px;
+
+    border-radius: 8px;
+}
+
+#Carrot{
+    height: 105px;
+    width: 105px;
+
+    border-radius: 8px;
+}
+
+#Coriander{
+    height: 105px;
+    width: 105px;
+
+    border-radius: 8px;
+}
+
+#Melon{
+    height: 105px;
+    width: 105px;
+
+    border-radius: 8px;
+}
+
+#Watermelon{
+    height: 105px;
+    width: 105px;
+
+    border-radius: 8px;
 }
 
 #preco-com-desconto{

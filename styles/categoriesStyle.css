@@ -6,6 +6,8 @@
 
 :root {
     --background : #fff;
+    --background-header : #A5E887;
+    --green : #00AA95;
 }
 
 body {
@@ -14,5 +16,101 @@ body {
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
 
-    border: 1px solid red;
+}
+
+header {
+    height: 110px;
+    background-color: var(--background-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.50rem;
+}
+
+.icons {
+    max-width: 35px;
+    height: auto;
+}
+
+
+.container-header-left-items{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.container-header-left-items img {
+    max-width: 70%;
+    height: auto;
+}
+
+.search {
+    width: 350px;
+    background-color: var(--background);
+    padding: 3px 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.search input {
+    background-color: transparent;
+    border-style: none;
+    font-size: 20px;
+}
+
+.container-header-right-items {
+    display: flex;
+    gap: 25px;
+    
+}
+
+.container-main {
+    padding: 5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.container-main h1 {
+    color: var(--green);
+    font-size: 4rem;
+}
+
+.container-categories-buttons {
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box-button{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-button img {
+    max-width: 60%;
+    height: 60%;
+}
+
+.box-button p {
+    font-size: 1.3rem;
+    color: var(--green);
+}
+a:link{
+    color:var(--green);
+    text-decoration:none;
+}
+
+a:visited{
+    color:var(--green);
+    text-decoration:none;
 }

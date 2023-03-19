@@ -3,117 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .background{
     position: relative;
     width: 100vw;
     height: 100vh;
-
     background: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 110px;
-
     background: #A5E887;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
 }
 
 #LogoFeira{
-    position: absolute;
     height: 80%;
     width: 120px;
-    left: 25px;
-    top: 12px;
 }
 
 .search{
-    position: absolute;
-    width: 350px;
+    width: 60vw;
     height: 45px;
-    left: 230px;
-    top: 30px;
-
     background: #fff;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 3%;
 }
 
 #LogoFind{
-    position: absolute;
     height: 30px;
     width: 30px;
-    left: 11px;
-    top: 8px;
+    margin-left: 3%;
 }
 
 .text-search input[type="text"] {
-    position: absolute;
-    width: 250px;
+    width: 18vw;
     height: 28px;
-    left: 50px;
-    top: 8px;
 
     margin-left: 10px;
 
     border: none;
     outline: none;
-
+    
     color: #acacac;
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
 }
 
 #LogoUser{
-    position: absolute;
     width: 30px;
     height: 31px;
-    left: 92%;
-    top: 38px;
+    
+    margin-left: 47%;
 }
 
 #LogoChat{
-    position: absolute;
     width: 40px;
     height: 31px;
-    left: 95%;
-    top: 38px;
+
+    margin-left: 3%;
 }
 
-.container{
-    position: absolute;
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 100vw;
+    max-width: 100%;
     height: 510px;
-    top: 120px;
+    margin-top: 30px;
 }
 
 #Hortifrutas{
     position: relative;
-    width: 100vw;
+    width: 90vw;
     height: 256px;
-    left: 0px;
-    top: 0px;
 
     border-radius: 5px;
+}
+
+.banca{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 196px;
+
+    left: 5%;
+    top: 55%;
 }
 
 #ProfileBanca{
     position: relative;
     width: 140px;
     height: 140px;
-    left: 220px;
-    top: 20px;
+    
+    top: 15%;
 }
 
 .banca h2{
-    position: absolute;
-    width: 280px;
+    position: relative;
+    width: 200px;
     height: 35px;
-    left: 390px;
-    top: 340px;
+
+    top: 43%;
+    left: 1%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -125,20 +131,21 @@ header{
 }
 
 #Avaliacao{
-    position: absolute;
+    position: relative;
+    width: 12px;
+    height: 11px;
 
-    width: 11px;
-    height: 10px;
-    top: 354px;
-    left: 585px;
+    top: 50%;
+    left: 1%;
 }
 
 .banca p{
-    position: absolute;
+    position: relative;
     width: 20px;
     height: 18px;
-    left: 600px;
-    top: 352px;
+
+    top: 49%;
+    left: 1%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -150,11 +157,12 @@ header{
 }
 
 .banca h4{
-    position: absolute;
-    width: 190px;
+    position: relative;
+    width: 90px;
     height: 30px;
-    left: 1600px;
-    top: 342px;
+
+    top: 43%;
+    left: 65%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -165,26 +173,43 @@ header{
     color: #00AA95;
 }
 
-.search-horti{
+.barras{
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 76px;
+
+    left: 5%;
+    top: 82%;
+}
+
+.search-horti{
+    position: relative;
     width: 58vw;
     height: 45px;
-    left: 230px;
-    top: 440px;
+
+    top: 20%;
 
     background: #e7e7e7;
     border-radius: 10px;
 }
 
+.search-horti #LogoFind{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
 .text-search-horti input[type="text"] {
     position: absolute;
-    width: 54vw;
+    width: 50vw;
     height: 28px;
-    left: 50px;
-    top: 8px;
+
+    left: 7%;
+    top: 20%;
     background: #e7e7e7;
 
-    margin-left: 10px;
+    margin-left: 1%;
 
     border: none;
     outline: none;
@@ -199,11 +224,12 @@ header{
 }
 
 .chat{
-    position: absolute;
-    width: 17vw;
+    position: relative;
+    width: 30vw;
     height: 45px;
-    left: 1360px;
-    top: 440px;
+    
+    top: 20%;
+    left: 2%;
 
     background: #e7e7e7;
     border-radius: 10px;
@@ -217,9 +243,9 @@ header{
 
 #Inicio-Chat{
     position: absolute;
-    left: 58px;
-    top: 12px;
-    width: 250px;
+    left: 18%;
+    top: 30%;
+    width: 21vw;
     text-align: left;
 
     border: none;
@@ -234,82 +260,53 @@ header{
     cursor: pointer;
 }
 
+.produtos{
+    position: absolute;
+    width: 90vw;
+    height: auto;
+
+    left: 5%;
+    top: 97%;
+}
+
+
 ul{
+    position: relative;
     list-style: none;
+    width: 100%;
+    height: 100%;
     
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
+
     padding: 0;
     margin: 0;
 }
 
 li{
-    margin-bottom: 10px;
-    flex-basis: calc(17% - 10px);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.produtos{
-    margin-left: 220px;
-    margin-top: 120px;
-    width: 1470px;
-    height: 250px;
-
-    border: black;
-    border-style: dashed;
-}
-
-.lista-produtos{
-
-    border-color: red;
-    border-style: dashed;
-}
-
-#Apple{
-    height: 100px;
-    width: 100px;
+li > img{
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
 
     border-radius: 8px;
 }
 
-#Papaya{
-    height: 105px;
-    width: 105px;
-
-    border-radius: 8px;
-}
-
-#Carrot{
-    height: 105px;
-    width: 105px;
-
-    border-radius: 8px;
-}
-
-#Coriander{
-    height: 105px;
-    width: 105px;
-
-    border-radius: 8px;
-}
-
-#Melon{
-    height: 105px;
-    width: 105px;
-
-    border-radius: 8px;
-}
-
-#Watermelon{
-    height: 105px;
-    width: 105px;
-
-    border-radius: 8px;
+.info-produto{
+    margin-top: 5%;
+    text-align: center;
 }
 
 #preco-com-desconto{
-    
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -330,8 +327,6 @@ li{
 }
 
 .preco-sem-desconto{
-    
-    
     color: #00AA95;
 
     font-family: 'Inter', sans-serif;

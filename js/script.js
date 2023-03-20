@@ -1,22 +1,20 @@
-/*
-const buttonSend = document.getElementById('enter')
-
+const buttonSend = document.getElementById('enter');
 
 buttonSend.addEventListener('click', (e) => {
-  validarFormulario()
-})
+  validarFormulario();
+});
 
 function validarFormulario() {
-  const userName = document.getElementById("username").value;
-  const password = document.getElementById("password").value;
+  let userName = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
   console.log(userName)
-
+  console.log(password)
   if (userName == '' || password == '') {
     alert("Por favor, preencha todos os campos.");
     return false;
   }
 }
-*/
+
 
 
 

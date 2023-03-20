@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <script src="../js/scriptBancaAntonio.js"></script>
     <link rel="stylesheet" href="../styles/bancaStyle.css">
     <title>Banca do Antônio</title>
 </head>
@@ -21,11 +20,22 @@
                     <input type="text" placeholder="Busque por um item ou loja">
                 </div>
             </div>
-            <img id="LogoUser" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário">
+            <img id="LogoUser" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário" onclick="mostrarUser()">
             <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat">
         </header>
         <main>
             <div class="container">
+                <div id="UserInfo" style="display: none;">
+                    <h2>Olá, José Eduardo!</h2>
+                    <div class="MeusDados">
+                        <img id="LogoConfig" src="../assets/bancaAntonio/LogoConfig.svg" alt="Configurações">
+                        <p>Meus dados</p>
+                    </div>
+                    <a href="login.html"><div class="Sair">
+                        <img id="LogoExit" src="../assets/bancaAntonio/LogoExit.svg" alt="Sair">
+                        <p>Sair</p>
+                    </div></a>
+                </div>
                 <img id="Hortifrutas" src="../assets/bancaAntonio/Hortifrutas.svg" alt="Hortifrutas">
                 <div class="banca">
                     <img id="ProfileBanca" src="../assets/bancaAntonio/ProfileBanca.png" alt="Foto de produtos da banca">
@@ -109,5 +119,6 @@
             </div>
         </main>
     </div>
+    <script src="../js/scriptBancaAntonio.js"></script>
 </body>
 </html>

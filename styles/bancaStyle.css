@@ -65,6 +65,8 @@ header{
     height: 31px;
     
     margin-left: 47%;
+
+    cursor: pointer;
 }
 
 #LogoChat{
@@ -74,6 +76,72 @@ header{
     margin-left: 3%;
 }
 
+#UserInfo{
+    position: absolute;
+    width: 17vw;
+    height: 16vh;
+    top: 10%;
+    left: 76%;
+
+    border-radius: 3%;
+    background: #fff;
+    z-index: 2;
+}
+
+#LogoConfig{
+    width: 10%;
+    height: 8%;
+}
+
+#LogoExit{
+    width: 10%;
+    height: 8%;
+}
+
+.MeusDados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.Sair{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#UserInfo h2{
+    margin-top: 3%;
+    margin-left: 5%;
+
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #000;
+}
+
+#UserInfo p{
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #9B9B9B;
+}
 
 .container{
     display: flex;
@@ -90,6 +158,7 @@ header{
     position: relative;
     width: 90vw;
     height: 256px;
+    z-index: 1;
 
     border-radius: 5px;
 }

@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 :root {
-    --background : #fff;
+    --background: #fff;
     --button-enter: #00AA95;
 }
 
@@ -19,12 +19,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     position: relative;
 }
 
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -67,10 +68,10 @@ textarea:focus, input:focus {
 .container-login-title {
     font-size: 70px;
     margin-top: 2rem;
-    
+
 }
 
-.container-login-inputs{
+.container-login-inputs {
     height: 60%;
     width: 80%;
     font-size: 35px;
@@ -105,7 +106,7 @@ button {
 }
 
 #enter {
-    background-color: var(--button-enter) ;
+    background-color: var(--button-enter);
     border-style: none;
     border-radius: 10px;
 
@@ -114,13 +115,13 @@ button {
 }
 
 #enter a:link {
-    color:var(--button-enter);
-    text-decoration:none;
+    color: var(--button-enter);
+    text-decoration: none;
 }
 
 #enter a:visited {
-    color:var(--background);
-    text-decoration:none;
+    color: var(--background);
+    text-decoration: none;
 }
 
 #register {
@@ -131,11 +132,11 @@ button {
 }
 
 #register a:link {
-    color:var(--button-enter);
-    text-decoration:none;
+    color: var(--button-enter);
+    text-decoration: none;
 }
 
 #register a:visited {
-    color:var(--button-enter);
-    text-decoration:none;
+    color: var(--button-enter);
+    text-decoration: none;
 }

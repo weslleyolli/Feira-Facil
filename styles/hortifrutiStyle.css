@@ -272,11 +272,12 @@ a {
 }
 
 .banca {
+    position: relative;
     align-items: center;
     justify-content: center;
     display: flex;
     float: left;
-    width: 35%;
+    width: 45%;
     height: 150px;
     margin: 2%;
     position: relative;
@@ -286,10 +287,9 @@ a {
 }
 
 .bancaimg {
-    width: 11rem;
-    height: 11rem;
-    margin-right: 30px;
-    display: flex;
+    width: 362px;
+    height: 120px;
+    padding-left: 200px;
 }
 
 .bancanome {
@@ -297,10 +297,35 @@ a {
     width: max-content;
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 20px;
-    line-height: 13px;
+    font-size: 25px;
+    width: max-content;
     color: black;
     font-weight: bold;
-    width: 22rem;
     bottom: 50px;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.localizacao {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ADADAD;
+    font-family: 'Roboto';
+    position: relative;
+    width: fit-content;
+    font-size: 18px;
+    line-height: 13px;
+    right: 32%;
+    bottom: 10px;
+    white-space: nowrap;
+}
+
+.cate-avaliacao {
+    position: relative;
+    display: flex;
+    right: 69%;
+    top: 23%;
+
 }

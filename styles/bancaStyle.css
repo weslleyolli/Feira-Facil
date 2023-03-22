@@ -25,6 +25,8 @@ header{
 #LogoFeira{
     height: 80%;
     width: 120px;
+
+    cursor: pointer;
 }
 
 .search{
@@ -42,6 +44,8 @@ header{
     height: 30px;
     width: 30px;
     margin-left: 3%;
+
+    cursor: pointer;
 }
 
 .text-search input[type="text"] {
@@ -65,6 +69,8 @@ header{
     height: 31px;
     
     margin-left: 47%;
+
+    cursor: pointer;
 }
 
 #LogoChat{
@@ -74,6 +80,72 @@ header{
     margin-left: 3%;
 }
 
+#UserInfo{
+    position: absolute;
+    width: 17vw;
+    height: 16vh;
+    top: 10%;
+    left: 76%;
+
+    border-radius: 3%;
+    background: #fff;
+    z-index: 2;
+}
+
+#LogoConfig{
+    width: 10%;
+    height: 8%;
+}
+
+#LogoExit{
+    width: 10%;
+    height: 8%;
+}
+
+.MeusDados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.Sair{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#UserInfo h2{
+    margin-top: 3%;
+    margin-left: 5%;
+
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #000;
+}
+
+#UserInfo p{
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #9B9B9B;
+}
 
 .container{
     display: flex;
@@ -90,6 +162,7 @@ header{
     position: relative;
     width: 90vw;
     height: 256px;
+    z-index: 1;
 
     border-radius: 5px;
 }
@@ -171,7 +244,97 @@ header{
     line-height: 30px;
 
     color: #00AA95;
+
+    cursor: pointer;
 }
+
+.banca h4:hover{
+    text-decoration: underline;
+}
+
+.blur{
+    filter: blur(5px);
+    z-index: 0;
+}
+
+#VerMais{
+    position: fixed;
+    width: 35%;
+    height: 120%;
+
+    top: 0%;
+    left: 65%;
+
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+    z-index: 9999;
+}
+
+#VerMais h1{
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    margin-bottom: 3%;
+
+    color: #00AA95;
+}
+
+.info-feira{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin-left: 11%;
+}
+
+.info-feira .about{
+    margin-left: 8%;
+}
+
+.info-feira .address{
+    margin-left: 8%;
+}
+
+.info-feira .hours{
+    margin-left: 8%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hours div{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-feira p{
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+
+    /* margin-bottom: 3%; */
+
+    color: #000;
+}
+
+#LogoClose{
+    position: relative;
+    width: 4%;
+    height: 4%;
+    margin: 5% 6%;
+
+    cursor: pointer;
+}
+
 
 .barras{
     position: absolute;
@@ -299,6 +462,8 @@ li > img{
     object-fit: cover;
 
     border-radius: 8px;
+
+    cursor: pointer;
 }
 
 .info-produto{

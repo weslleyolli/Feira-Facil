@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/hortifrutiStyle.css">
+    <title>Hortifruti</title>
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <img id="LogoFeira" src="../assets/bancaAntonio/Logo_FF.svg" alt="Logo Feira">
+            <div class="search">
+                <img id="LogoFind" src="../assets/bancaAntonio/LogoFind.svg" alt="Lupa pesquisa">
+                <div class="text-search">
+                    <input type="text" placeholder="Busque por um item ou loja">
+                </div>
+            </div>
+            <img id="LogoUser" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário" onclick="mostrarUser()">
+            <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat">
+        </header>
+        <main class="hortifruti-section">
+            <div>
+                <img class="horti-Icon" src="../assets/hortifruti/horti-Icon.svg">
+            </div>
+            <div class="bancas-section">
+                <div class="banca">
+                    <div class="banca-info"></div>
+                    <img class="bancaimg" src="../assets/hortifruti/banca1.svg">
+                    <span class="bancanome"> Banca do Antônio</span>
+                    <span class="localizacao">R.Dep. José Taváres, 776</span>
+                    <img class="cate-avaliacao" src="../assets/hortifruti/categoria-avaliação.svg">
+                </div>
+                <div class="banca">
+                    <div class="banca-info"></div>
+                    <img class="bancaimg" src="../assets/hortifruti/banca2.svg">
+                    <span class="bancanome"> Bandejas do Orlando</span>
+                    <span class="localizacao">R.Dep. José Taváres, 990</span>
+                    <img class="cate-avaliacao" src="../assets/hortifruti/categoria-avaliacao2.svg">
+                </div>
+                <div class="banca">
+                    <div class="banca-info"></div>
+                    <img class="bancaimg" src="../assets/hortifruti/banca3.svg">
+                    <span class="bancanome">Chico da Laranja</span>
+                    <span class="localizacao">R.Dep. José Taváres, 854</span>
+                    <img class="cate-avaliacao" src="../assets/hortifruti/categoria-avaliacao3.svg">
+                </div>
+                <div class="banca">
+                    <div class="banca-info"></div>
+                    <img class="bancaimg" src="../assets/hortifruti/banca4.svg">
+                    <span class="bancanome"> Barraca São Luiz</span>
+                    <span class="localizacao">R.Dep. José Taváres, 698</span>
+                    <img class="cate-avaliacao" src="../assets/hortifruti/categoria-avaliação.svg">
+                </div>
+                <div class="banca">
+                    <div class="banca-info"></div>
+                    <img class="bancaimg" src="../assets/hortifruti/banca5.svg">
+                    <span class="bancanome"> Banca da Suani</span>
+                    <span class="localizacao">R.Dep. José Taváres, 887</span>
+                    <img class="cate-avaliacao" src="../assets/hortifruti/categoria-avaliacao3.svg">
+                </div>
+                <div class="banca">
+                    <div class="banca-info"></div>
+                    <img class="bancaimg" src="../assets/hortifruti/banca6.svg">
+                    <span class="bancanome"> Toim do Coentro</span>
+                    <span class="localizacao">R.Dep. José Taváres, 655</span>
+                    <img class="cate-avaliacao" src="../assets/hortifruti/categoria-avaliação.svg">
+                </div>
+            </div>
+        </main>
+        <div class="container">
+            <div id="UserInfo" style="display: none;">
+                <h2>Olá, José Eduardo!</h2>
+                <div class="MeusDados">
+                    <img id="LogoConfig" src="../assets/bancaAntonio/LogoConfig.svg" alt="Configurações">
+                    <p>Meus dados</p>
+                </div>
+                <a href="login.html">
+                    <div class="Sair">
+                        <img id="LogoExit" src="../assets/bancaAntonio/LogoExit.svg" alt="Sair">
+                        <p>Sair</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/scriptHortifruti.js"></script>
+</body>
+
+</html>

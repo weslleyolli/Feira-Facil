@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background: #A5E887;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#LogoFeira {
+    height: 80%;
+    width: 120px;
+}
+
+.search {
+    width: 60vw;
+    height: 45px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 3%;
+}
+
+#LogoFind {
+    height: 30px;
+    width: 30px;
+    margin-left: 3%;
+}
+
+.text-search input[type="text"] {
+    width: 18vw;
+    height: 28px;
+
+    margin-left: 10px;
+
+    border: none;
+    outline: none;
+
+    color: #acacac;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#LogoUser {
+    width: 30px;
+    height: 31px;
+
+    margin-left: 47%;
+
+    cursor: pointer;
+}
+
+#LogoChat {
+    width: 40px;
+    height: 31px;
+
+    margin-left: 3%;
+}
+
+#UserInfo {
+    position: absolute;
+    width: 17vw;
+    height: 16vh;
+    top: 10%;
+    left: 76%;
+
+    border-radius: 3%;
+    background: #fff;
+    z-index: 2;
+}
+
+#LogoConfig {
+    width: 10%;
+    height: 8%;
+}
+
+#LogoExit {
+    width: 10%;
+    height: 8%;
+}
+
+.MeusDados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.Sair {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#UserInfo h2 {
+    margin-top: 3%;
+    margin-left: 5%;
+
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #000;
+}
+
+#UserInfo p {
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #9B9B9B;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    height: 510px;
+    margin-top: 30px;
+}
+
+#Hortifrutas {
+    position: relative;
+    width: 90vw;
+    height: 256px;
+    z-index: 1;
+
+    border-radius: 5px;
+}
+
+.banca {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 196px;
+
+    left: 5%;
+    top: 55%;
+}
+
+#ProfileBanca {
+    position: relative;
+    width: 140px;
+    height: 140px;
+
+    top: 15%;
+}
+
+.banca h2 {
+    position: relative;
+    width: 200px;
+    height: 35px;
+
+    top: 43%;
+    left: 1%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #1C1B1F;
+}
+
+#Avaliacao {
+    position: relative;
+    width: 12px;
+    height: 11px;
+
+    top: 50%;
+    left: 1%;
+}
+
+.banca p {
+    position: relative;
+    width: 20px;
+    height: 18px;
+
+    top: 49%;
+    left: 1%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #00AA95;
+}
+
+.banca h4 {
+    position: relative;
+    width: 90px;
+    height: 30px;
+
+    top: 43%;
+    left: 65%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #00AA95;
+}
+
+.barras {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 76px;
+
+    left: 5%;
+    top: 82%;
+}
+
+#UserInfo {
+    border: 1px solid black;
+}
+
+.horti-Icon {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.bancas-section {
+    width: 100%;
+    padding-left: 200px;
+}
+
+.banca {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+    width: 45%;
+    height: 150px;
+    margin: 2%;
+    position: relative;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+}
+
+.bancaimg {
+    width: 362px;
+    height: 120px;
+    padding-left: 200px;
+}
+
+.bancanome {
+    position: relative;
+    width: max-content;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 25px;
+    width: max-content;
+    color: black;
+    font-weight: bold;
+    bottom: 50px;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.localizacao {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ADADAD;
+    font-family: 'Roboto';
+    position: relative;
+    width: fit-content;
+    font-size: 18px;
+    line-height: 13px;
+    right: 32%;
+    bottom: 10px;
+    white-space: nowrap;
+}
+
+.cate-avaliacao {
+    position: relative;
+    display: flex;
+    right: 69%;
+    top: 23%;
+
+}

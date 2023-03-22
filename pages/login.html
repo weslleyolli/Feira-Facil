@@ -15,38 +15,45 @@
 
 <body>
     <div class="container-logo">
-        <img src="../assets/logoIcon.svg" alt="Logo">
+        <img src="../assets/login/logoIcon.svg" alt="Logo">
     </div>
     <div class="ballOne">
-        <img src="../assets/ballOne.svg" alt="Bola verde" height="1300px">
+        <img src="../assets/login/ballOne.svg" alt="Bola verde" height="1300px">
     </div>
     <div class="container-login">
         <div class="container-login-title">
             <p>Login</p>
         </div>
         <div class="container-login-inputs">
-            <div>
+            <div class="container-login-email">
                 <p>Email</p>
-                <input id=”username” type="text" placeholder="email@email.com" style="font-size: 30px;">
+                <input id=”username” type="text" placeholder="email@email.com" style="font-size: 70%; padding: 5px;">
             </div>
             <div>
-                <input id=”password” type="password" placeholder="***************" style="font-size: 30px;">
-                <p style="text-align: end; color: #00AA95;">esqueceu a senha?</p>
+                <div>
+                    <input id=”password” type="password" placeholder="***************"
+                        style="font-size: 70%; padding: 5px;">
+                </div>
+                <div class="button-forget">
+                    <button id="forget" style="align-items: end;"> <a href="#"> Esqueceu a senha? </a></button>
+                </div>
             </div>
         </div>
         <div class="container-login-buttons">
-            
-                <button id="enter">
-                    <a href="#"><p>Entrar</p></a>
-                </button>
+
+            <button id="enter">
+                <a href="./categories.html">
+                    <p>Entrar</p>
+                </a>
+            </button>
 
             <button id="register">
-                <a href="#">Cadastre-se</a> 
+                <a href="#">Cadastre-se</a>
             </button>
         </div>
     </div>
     <div class="ballTwo">
-        <img src="../assets/ballTwo.svg" alt="" height="1500px">
+        <img src="../assets/login/ballTwo.svg" alt="" height="1500px">
     </div>
 </body>
 <script src="../js/script.js"></script>

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background : #fff;
+    --background-header : #A5E887;
+    --green : #00AA95;
+    --gray : #9B9B9B;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+
+}
+
+button {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+a:visited{
+    text-decoration:none;
+}
+
+header {
+    height: 110px;
+    background-color: var(--background-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.50rem;
+
+    position: relative;
+}
+
+.icons {
+    max-width: 35px;
+    height: auto;
+}
+
+
+.container-header-left-items{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.container-header-left-items img {
+    max-width: 70%;
+    height: auto;
+}
+
+.search {
+    width: 350px;
+    background-color: var(--background);
+    padding: 3px 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.search input {
+    background-color: transparent;
+    border-style: none;
+    font-size: 20px;
+}
+
+.container-header-right-items {
+    display: flex;
+    gap: 25px;
+    
+}
+
+.popover {
+    background-color: var(--background);
+    font-size: 32px;
+    box-shadow: 1px 5px 10px 2px rgba(0, 0, 0, 0.09);
+    padding: 20px 40px 20px 15px; 
+    border-radius: 5px;
+    font-weight: 300;
+
+    position: absolute;
+    right: 100px;
+    top: 75px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#line {
+    height: 2px;
+    width: 100%;
+    background-color: var(--gray);
+    z-index: 2;
+}
+
+.button-popover {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.button-popover p {
+    color: var(--gray);
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.container-main {
+    padding: 5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.container-main h1 {
+    color: var(--green);
+    font-size: 3rem;
+}
+
+.container-categories-buttons {
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box-button{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-button img {
+    max-width: 60%;
+    height: 60%;
+}
+
+.box-button p {
+    font-size: 1.3rem;
+    color: var(--green);
+}

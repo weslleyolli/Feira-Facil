@@ -246,6 +246,9 @@ a {
     width: 50px;
     box-sizing: border-box;
     overflow-y: auto;
+    left: 150px;
+    top: 1023px;
+    background-color: red;
 }
 
 #send-button {
@@ -273,4 +276,34 @@ a {
     height: 40px;
     display: flex;
     flex-direction: column;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+    position: absolute;
+    width: 1550px;
+    height: 52px;
+    left: 150px;
+    top: 865px;
+}
+
+#send-button {
+    background-image: url(../assets/bancaAntonio/Send.svg);
+    background-size: cover;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 1730px;
+    top: 870px;
+}
+
+#rectangle {
+    position: absolute;
+    width: 1650px;
+    height: 84px;
+    left: 137px;
+    top: 850px;
+
+    background: #F2F2F2;
+    border-radius: 5px;
 }

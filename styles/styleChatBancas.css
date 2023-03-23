@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    background: #A5E887;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#LogoFeira{
+    height: 80%;
+    width: 120px;
+    cursor: pointer;
+}
+
+.search{
+    width: 60vw;
+    height: 45px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 3%;
+}
+
+#LogoFind{
+    height: 30px;
+    width: 30px;
+    margin-left: 3%;
+}
+
+.text-search input[type="text"] {
+    width: 18vw;
+    height: 28px;
+
+    margin-left: 10px;
+
+    border: none;
+    outline: none;
+    
+    color: #acacac;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#LogoUser{
+    width: 30px;
+    height: 31px;
+    
+    margin-left: 47%;
+
+    cursor: pointer;
+}
+
+#LogoChat{
+    width: 40px;
+    height: 31px;
+
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.back {
+    font-family: 'Fredoka';
+    position: absolute;
+    display: flex;
+    width: 146px;
+    height: 34px;
+    left: 135px;
+    top: 170px;
+    color: #00AA95;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#line {
+    background-color: rgb(183, 183, 183);
+    padding-top: 2px;
+    padding-left: 137px;
+    padding-right: 137px;
+    position: absolute;
+    width: 1400px;
+    height: 0px;
+    left: 0px;
+    top: 40px;
+}
+
+.banca_chat {
+    position: absolute;
+    width: max-content;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    width: max-content;
+    color: black;
+    font-weight: bold;
+    bottom: 50px;
+    white-space: nowrap;
+    padding-top: 105px;
+    padding-left: 123px;
+
+}
+
+#line2 {
+    background-color: rgb(183, 183, 183);
+    padding-top: 2px;
+    padding-left: 137px;
+    padding-right: 137px;
+    position: absolute;
+    width: 1280px;
+    height: 0px;
+    left: 120px;
+    top: 120px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-items: auto;
+    height: 107.07px;
+    left: 137px;
+    top: 285px;
+    font-family: 'Roboto';
+    width: fit-content;
+    gap: 14px;
+}
+
+
+
+.container2 {
+    position: absolute;
+    display: flex;
+    justify-items: auto;
+    height: 107.07px;
+    left: 137px;
+    top: 427px;
+    font-family: 'Roboto';
+    width: fit-content;
+    gap: 14px;
+}
+
+#UserInfo{
+    position: absolute;
+    width: 17vw;
+    height: 16vh;
+    top: 10%;
+    left: 76%;
+
+    border-radius: 3%;
+    background: #fff;
+    z-index: 2;
+}
+
+#LogoConfig{
+    width: 10%;
+    height: 8%;
+}
+
+#LogoExit{
+    width: 10%;
+    height: 8%;
+}
+
+.MeusDados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.Sair{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+#UserInfo h2{
+    margin-top: 3%;
+    margin-left: 5%;
+
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #000;
+}
+
+#UserInfo p{
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #9B9B9B;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    height: 510px;
+    margin-top: 30px;
+}
+
+#chat {
+    height: 50px;
+    width: 1037px;
+    box-sizing: border-box;
+}
+  
+#messages {
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#send-button {
+    background-image: url("../assets/bancaAntonio/Send.svg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    width: 50px; 
+    height: 50px; 
+    cursor: pointer;
+}
+
+#input_field {
+    position: absolute;
+    width: 1347px;
+    height: 52px;
+    left: 150px;
+    top: 1023px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.nome_barraca {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}

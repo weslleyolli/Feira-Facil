@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styleChatBancas.css">
+    <title>Chat - Banca do Antonio</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <img id="LogoFeira" src="../assets/bancaAntonio/Logo_FF.svg" alt="Logo Feira">
+            <div class="search">
+                <img id="LogoFind" src="../assets/bancaAntonio/LogoFind.svg" alt="Lupa pesquisa">
+                <div class="text-search">
+                    <input type="text" placeholder="Busque por um item ou loja">
+                </div>
+            </div>
+            <img id="LogoUser" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário" onclick="mostrarUser()">
+            <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat">
+        </header>
+    </div>
+    <main>
+        <div class="container_tab">
+            <div id="UserInfo" style="display: none;">
+                <h2>Olá, José Eduardo!</h2>
+                <div class="MeusDados">
+                    <img id="LogoConfig" src="../assets/bancaAntonio/LogoConfig.svg" alt="Configurações">
+                    <p>Meus dados</p>
+                </div>
+                <a href="login.html"><div class="Sair">
+                    <img id="LogoExit" src="../assets/bancaAntonio/LogoExit.svg" alt="Sair">
+                    <p>Sair</p>
+                </div></a>
+            </div>
+        </div>
+        <div class="back">
+            <img id="Back" src="../assets/bancaAntonio/LogoBack.svg" alt="Voltar">
+            <h1>Voltar</h1>
+            <div id="line"></div>
+        </div>
+        <div class="container">
+            <img id="Banca_Antonio" src="../assets/bancaAntonio/ProfileBanca.png" alt="Banca do Antônio">
+            <h1 class="nome_barraca">Banca do Antônio</h1>
+            <h2 class="banca_chat">Mas é claro!</h2>
+            <div id="line2"></div>
+        </div>
+        <div class="container2">
+            <img id="Banca_Antonio" src="../assets/bancaAntonio/ProfileBanca2.png" alt="Bandejas do Orlando">
+            <h1 class="nome_barraca">Bandejas do Orlando</h1>
+            <h2 class="banca_chat">Vou fazer agora!</h2>
+            <div id="line2"></div>
+        </div>
+    </main>
+</div>
+    <script src="../js/scriptBancasChat.js"></script>
+</body>
+</html>

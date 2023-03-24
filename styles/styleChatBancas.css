@@ -48,6 +48,8 @@ header{
 .text-search input[type="text"] {
     width: 18vw;
     height: 28px;
+    top: 40px;
+    left: 260px;
 
     margin-left: 10px;
 

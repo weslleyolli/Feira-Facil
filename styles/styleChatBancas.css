@@ -143,8 +143,8 @@ header{
     font-family: 'Roboto';
     width: fit-content;
     gap: 14px;
+    cursor: pointer;
 }
-
 
 
 .container2 {
@@ -157,6 +157,7 @@ header{
     font-family: 'Roboto';
     width: fit-content;
     gap: 14px;
+    cursor: pointer;
 }
 
 #UserInfo{
@@ -286,7 +287,7 @@ input[type="text" i] {
     width: 1550px;
     height: 52px;
     left: 150px;
-    top: 865px;
+    top: 650px;
 }
 
 #send-button {
@@ -296,7 +297,7 @@ input[type="text" i] {
     width: 38px;
     height: 38px;
     left: 1730px;
-    top: 870px;
+    top: 657px;
 }
 
 #rectangle {
@@ -304,7 +305,7 @@ input[type="text" i] {
     width: 1650px;
     height: 84px;
     left: 137px;
-    top: 850px;
+    top: 634px;
 
     background: #F2F2F2;
     border-radius: 5px;

@@ -24,3 +24,6 @@ sendButton.addEventListener('click', () => {
   messagesDiv.appendChild(newMessage);
 });
 
+document.getElementById("Back").addEventListener("click", function() {
+    window.location.href = "chatBancas.html";
+});

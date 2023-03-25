@@ -6,5 +6,8 @@ function mostrarUser(){
         user.style.display = 'none';
     }
 
-    
 }
+
+document.getElementById("banca").addEventListener("click", function() {
+    window.location.href = "chatBancaDoAntonio.html";
+});

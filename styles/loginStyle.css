@@ -85,8 +85,6 @@ img {
     width: 80%;
     font-size: 35px;
 
-    margin-bottom: 8rem;
-
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -116,6 +114,23 @@ img {
 
 .button-forget {
     text-align: end;
+}
+
+#forget {
+    border-style: none;
+    background-color: transparent;
+    color: #00AA95;
+    font-size: 1rem;
+}
+
+#forget a:link {
+    color: var(--button-enter);
+    text-decoration: none;
+}
+
+#forget a:visited {
+    color: var(--button-enter);
+    text-decoration: none;
 }
 
 .container-login-buttons button {

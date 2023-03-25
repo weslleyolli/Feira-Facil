@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 :root {
-    --background : #fff;
+    --background: #fff;
     --button-enter: #00AA95;
 }
 
@@ -19,12 +19,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     position: relative;
 }
 
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -35,10 +36,10 @@ img {
 }
 
 .container-logo {
-position: absolute;
-top: 0;
-left: 0;
-margin: 10px 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px 2rem;
 }
 
 .ballOne {
@@ -74,14 +75,15 @@ margin: 10px 2rem;
 }
 
 .container-login-title {
-    font-size: 3.375rem;
-    
+    font-size: 55px;
+    margin-top: 1rem;
+
 }
 
-.container-login-inputs{
-    height: 50%;
-    width: 70%;
-    font-size: 2rem;
+.container-login-inputs {
+    height: 60%;
+    width: 80%;
+    font-size: 35px;
 
     display: flex;
     flex-direction: column;
@@ -109,8 +111,26 @@ margin: 10px 2rem;
     gap: 10px;
 
 }
+
 .button-forget {
     text-align: end;
+}
+
+#forget {
+    border-style: none;
+    background-color: transparent;
+    color: #00AA95;
+    font-size: 1rem;
+}
+
+#forget a:link {
+    color: var(--button-enter);
+    text-decoration: none;
+}
+
+#forget a:visited {
+    color: var(--button-enter);
+    text-decoration: none;
 }
 
 .container-login-buttons button {
@@ -119,7 +139,7 @@ margin: 10px 2rem;
 }
 
 #enter {
-    background-color: var(--button-enter) ;
+    background-color: var(--button-enter);
     border-style: none;
     border-radius: 10px;
     padding: 5px;
@@ -129,13 +149,13 @@ margin: 10px 2rem;
 }
 
 #enter a:link {
-    color:var(--background);
-    text-decoration:none;
+    color: #fff;
+    text-decoration: none;
 }
 
 #enter a:visited {
-    color:var(--background);
-    text-decoration:none;
+    color: var(--background);
+    text-decoration: none;
 }
 
 #register {
@@ -146,28 +166,11 @@ margin: 10px 2rem;
 }
 
 #register a:link {
-    color:var(--button-enter);
-    text-decoration:none;
+    color: var(--button-enter);
+    text-decoration: none;
 }
 
 #register a:visited {
-    color:var(--button-enter);
-    text-decoration:none;
-}
-
-#forget {
-    background-color: transparent;
-    border-style: none;
     color: var(--button-enter);
-    font-size: 1.3rem;
-}
-
-#forget a:link {
-    color:var(--button-enter);
-    text-decoration:none;
-}
-
-#forget a:visited {
-    color:var(--button-enter);
     text-decoration: none;
 }

@@ -10,54 +10,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feira Facil</title>
     <link rel="icon" href="../assets/icon.svg">
-    <link rel="stylesheet" href="../styles/loginStyle.css">
+    <link rel="stylesheet" href="../styles/redefinirSenhaStyle.css">
 </head>
 
 <body>
     <div class="container-logo">
         <img src="../assets/login/logoIcon.svg" alt="Logo">
     </div>
-    <div class="ballOne">
-        <img src="../assets/login/ballOne.svg" alt="Bola verde" height="1300px">
+    <div class="photoOne">
+        <img src="../assets/cadastreSe/photoOne.png" alt="Foto feira" height="1300px">
     </div>
     <div class="container-login">
         <div class="container-login-title">
-            <p>Login</p>
+            <p>Redefinir senha</p>
         </div>
         <div class="container-login-inputs">
             <div class="container-login-email">
                 <p>Email</p>
                 <input id="username" type="email" placeholder="email@email.com" style="font-size: 70%; padding: 5px;">
             </div>
-            <div>
-                <div>
-                    <input id="password" type="password" placeholder="***************"
-                        style="font-size: 70%; padding: 5px;">
-                </div>
-                <div class="button-forget">
-                    <button id="forget" style="align-items: end;"> <a href="./redefinirSenha.html"> Esqueceu a senha? </a></button>
-                </div>
-            </div>
         </div>
         <div class="container-login-buttons">
-
-            <button id="enter">
-                <a href="./categories.html">
-                    <p>Entrar</p>
-                </a>
+            
+            <button id="enviarEmail" type="submit">
+                <a href="./login.html"><p>Enviar e-mail</p></a>
             </button>
 
-            <button id="register">
-                <a href="./cadastreSe.html">
-                    <p>Cadastre-se</p>
-                </a>
-            </button>
+            
         </div>
     </div>
-    <div class="ballTwo">
-        <img src="../assets/login/ballTwo.svg" alt="" height="1500px">
-    </div>
 </body>
-<script src="../js/script.js"></script>
-
+<script src="../js/scriptRedefinirSenha.js"></script>
 </html>

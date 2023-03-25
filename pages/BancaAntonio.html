@@ -11,9 +11,9 @@
     <title>Banca do Antônio</title>
 </head>
 <body>
-    <div class="background">
+    <div id="background" class="background">
         <header>
-            <img id="LogoFeira" src="../assets/bancaAntonio/Logo_FF.svg" alt="Logo Feira">
+            <a href="categories.html"><img id="LogoFeira" src="../assets/bancaAntonio/Logo_FF.svg" alt="Logo Feira"></a>
             <div class="search">
                 <img id="LogoFind" src="../assets/bancaAntonio/LogoFind.svg" alt="Lupa pesquisa">
                 <div class="text-search">
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <img id="LogoUser" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário" onclick="mostrarUser()">
-            <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat">
+            <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat" onclick="window.location.href = '../pages/chatBancas.html'">
         </header>
         <main>
             <div class="container">
@@ -29,7 +29,7 @@
                     <h2>Olá, José Eduardo!</h2>
                     <div class="MeusDados">
                         <img id="LogoConfig" src="../assets/bancaAntonio/LogoConfig.svg" alt="Configurações">
-                        <p>Meus dados</p>
+                        <a href="../pages/cadastreSe.html"><p>Meus dados</p></a>
                     </div>
                     <a href="login.html"><div class="Sair">
                         <img id="LogoExit" src="../assets/bancaAntonio/LogoExit.svg" alt="Sair">
@@ -42,7 +42,7 @@
                     <h2>Banca do Antônio</h2>
                     <img id="Avaliacao" src="../assets/bancaAntonio/LogoStar.svg" alt="Avaliação">
                     <p>4.7</p>
-                    <h4>Ver mais</h4>
+                    <h4 id="buttonVerMais" onclick="mostrarInfo()">Ver mais</h4>
                 </div>
                 <div class="barras">
                     <div class="search-horti">
@@ -54,7 +54,7 @@
                     <div class="chat">
                         <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Iniciar chat">
                         <div class="iniciar-chat">
-                            <button id="Inicio-Chat">Iniciar chat</button>
+                            <button onclick="window.location.href = '../pages/chatBancaDoAntonio.html'" id="Inicio-Chat">Iniciar chat</button>
                         </div>
                     </div>
                 </div>
@@ -118,6 +118,56 @@
                 </div>
             </div>
         </main>
+    </div>
+    <div id="VerMais" class="VerMais" style="display: none;">
+        <div class="exit">
+            <img onclick="fecharInfo()" id="LogoClose" src="../assets/bancaAntonio/LogoClose.svg" alt="Fechar">
+        </div>
+        <div class="info-feira">
+
+            <div class="about">
+                <h1>Sobre</h1>
+                <p>Loja de hortifrúti com a maior diversidade <br>de frutas, verduras e legumes de toda feira <br>central.</p>
+            </div>
+           <div class="address">
+                <h1>Endereço</h1>
+                <p>Rua Deputado José Taváres, 766 - Centro</p>
+                <p>Campina Grande - PB</p>
+                <p>CEP:58465-554</p>
+           </div>
+           <div class="hours">
+                <h1>Horário</h1>
+                <div class="segunda">
+                    <p>Segunda-feira</p>
+                    <p style="margin-left: 15%;">7:00 às 15:00</p>
+                </div>
+                <div class="terca">
+                    <p>Terça-feira</p>
+                    <p style="margin-left: 21%;">7:00 às 15:00</p>
+                </div>
+                <div class="quarta">
+                    <p>Quarta-feira</p>
+                    <p style="margin-left: 18%;">7:00 às 15:00</p>
+                </div>
+                <div class="quinta">
+                    <p>Quinta-feira</p>
+                    <p style="margin-left: 19%;">7:00 às 15:00</p>
+                </div>
+                <div class="sexta">
+                    <p>Sexta-feira</p>
+                    <p style="margin-left: 21%;">7:00 às 15:00</p>
+                </div>
+                <div class="sabado">
+                    <p>Sábado</p>
+                    <p style="margin-left: 28%;">7:00 às 15:00</p>
+                </div>
+                <div class="domingo">
+                    <p>Domingo</p>
+                    <p style="margin-left: 26%;">Não abre</p>
+                </div>
+           </div>
+            
+        </div>
     </div>
     <script src="../js/scriptBancaAntonio.js"></script>
 </body>

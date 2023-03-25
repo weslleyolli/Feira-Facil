@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --background : #fff;
+    --button-enter: #00AA95;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+.photoOne {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.container-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px 2rem;
+    }
+
+.container-login {
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3%;
+
+    position: relative;
+    right: 25%;
+}    
+
+.container-login-title {
+    font-size: 2rem;
+    
+}
+
+.container-login-inputs{
+    
+    width: 70%;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-login-email {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-login-inputs input {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #D7D7D7;
+}
+
+.container-login-buttons {
+    margin-bottom: 10%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.container-login-buttons button {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    max-width: 70%;
+    height: 100%;
+}
+
+#cadastreSe {
+    background-color: var(--button-enter) ;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px;
+
+    font-size: 1rem;
+    color: var(--background);
+}
+
+#cadastreSe a:link {
+    color:var(--background);
+    text-decoration:none;
+}
+
+#cadastreSe a:visited {
+    color:var(--background);
+    text-decoration:none;
+}
+
+.text1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 5px 4px black ;
+
+}
+
+.text2 {
+    font-size: 1rem;
+    color: white;
+    text-shadow: 2px 5px 4px black ;
+   
+}
+
+
+.container-text1{
+    height: 70%;
+    width: 35%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    position: relative;
+    left: 40%;
+
+}

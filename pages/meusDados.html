@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira Facil</title>
+    <link rel="icon" href="../assets/icon.svg">
+    <link rel="stylesheet" href="../styles/categoriesStyle.css">
+    <link rel="stylesheet" href="../styles/meusDadosStyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-header-left-items">
+            <div>
+                <img src="../assets/bancaAntonio/Logo_FF.svg" alt="Logo Feira">
+            </div>
+            <div class="search">
+                <img class="icons" src="../assets/bancaAntonio/LogoFind.svg" alt="Lupa pesquisa">
+                <input type="text" placeholder="Busque por um item ou loja">
+            </div>
+        </div>
+        <div class="container-header-right-items">
+            <button id="button-user">
+                <img class="icons" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário">
+            </button>
+            <button>
+                <img class="icons" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat">
+            </button>
+        </div>
+        <div class="popover invisible" id="popover">
+            <div>
+                <p>Olá, José Eduardo</p>
+                <div id="line"></div>
+            </div>
+            <button class="button-popover">
+                <img src="../assets/categories/settings.svg" alt="">
+                <a href=""><p>Meus dados</p></a>
+            </button>
+            <button class="button-popover">
+                <img src="../assets/categories/exit.svg" alt="">
+                <a href="../pages/login.html"><p>Sair</p></a>
+            </button>
+        </div>
+
+    </header>
+    <section class="container-main">
+        <div>   
+            <h1>Meus Dados</h1>
+        </div>
+        <div class="container-login">
+        
+           
+            <div class="container-login-inputs">
+                
+                <div class="container-login-email">
+                    <p>Nome Completo</p>
+                    <input id="name" type="text" placeholder="Seu nome" style="font-size: 70%; padding: 5px;">
+                </div>
+                
+                <div class="container-login-email">
+                    <p>Email</p>
+                    <input id="username" type="email" placeholder="email@email.com" style="font-size: 70%; padding: 5px;">
+                </div>
+    
+                <div class="container-login-email">
+                    <p>Senha</p>
+                    <input id="password" type="password" placeholder="Crie uma senha" style="font-size: 70%; padding: 5px;">
+                </div>
+    
+                <div class="container-login-email">
+                    <p>Telefone</p>
+                    <input id="phoneNumber" type="text" placeholder="(00)00000-0000" style="font-size: 70%; padding: 5px;">
+                </div>
+                
+                <div class="container-login-buttons">
+                
+                    <button id="salvar" type="submit">
+                        <a href="./login.html"><p>Salvar</p></a>
+                    </button>
+        
+                    
+                </div>
+                
+                </div>
+            
+            </div>
+    </section>
+    
+    </div>
+    
+</body>
+<script src="../js/scriptMeusDados.js"></script>
+</html>

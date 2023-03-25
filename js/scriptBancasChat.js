@@ -11,3 +11,11 @@ function mostrarUser(){
 document.getElementById("banca").addEventListener("click", function() {
     window.location.href = "chatBancaDoAntonio.html";
 });
+
+document.getElementById("Back").addEventListener("click", function() {
+    window.location.href = "chatBancas.html";
+});
+
+document.getElementById("LogoFeira").addEventListener("click", function() {
+    window.location.href = "categories.html";
+});

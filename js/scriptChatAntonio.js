@@ -24,6 +24,6 @@ sendButton.addEventListener('click', () => {
   messagesDiv.appendChild(newMessage);
 });
 
-document.getElementById("Back").addEventListener("click", function() {
-    window.location.href = "chatBancas.html";
+document.getElementById("LogoFeira").addEventListener("click", function() {
+    window.location.href = "categories.html";
 });

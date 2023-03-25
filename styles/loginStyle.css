@@ -75,8 +75,8 @@ img {
 }
 
 .container-login-title {
-    font-size: 70px;
-    margin-top: 2rem;
+    font-size: 55px;
+    margin-top: 1rem;
 
 }
 
@@ -149,7 +149,7 @@ img {
 }
 
 #enter a:link {
-    color: var(--button-enter);
+    color: #fff;
     text-decoration: none;
 }
 

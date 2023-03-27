@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.background{
+.background {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 
-header{
+header {
     width: 100%;
     height: 110px;
     background: #A5E887;
@@ -22,13 +22,13 @@ header{
     padding: 0 40px;
 }
 
-#LogoFeira{
+#LogoFeira {
     height: 80%;
     width: 120px;
     cursor: pointer;
 }
 
-.search{
+.search {
     width: 60vw;
     height: 45px;
     background: #fff;
@@ -39,7 +39,7 @@ header{
     margin-left: 3%;
 }
 
-#LogoFind{
+#LogoFind {
     height: 30px;
     width: 30px;
     margin-left: 3%;
@@ -55,7 +55,7 @@ header{
 
     border: none;
     outline: none;
-    
+
     color: #acacac;
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
@@ -63,16 +63,16 @@ header{
     line-height: 20px;
 }
 
-#LogoUser{
+#LogoUser {
     width: 30px;
     height: 31px;
-    
+
     margin-left: 47%;
 
     cursor: pointer;
 }
 
-#LogoChat{
+#LogoChat {
     width: 40px;
     height: 31px;
 
@@ -114,7 +114,7 @@ header{
     width: max-content;
     color: black;
     font-weight: bold;
-    bottom: 50px;
+    bottom: 30px;
     white-space: nowrap;
     padding-top: 105px;
     padding-left: 123px;
@@ -160,7 +160,7 @@ header{
     cursor: pointer;
 }
 
-#UserInfo{
+#UserInfo {
     position: absolute;
     width: 17vw;
     height: 16vh;
@@ -172,17 +172,17 @@ header{
     z-index: 2;
 }
 
-#LogoConfig{
+#LogoConfig {
     width: 10%;
     height: 8%;
 }
 
-#LogoExit{
+#LogoExit {
     width: 10%;
     height: 8%;
 }
 
-.MeusDados{
+.MeusDados {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,7 +191,7 @@ header{
     margin-top: 3%;
 }
 
-.Sair{
+.Sair {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,7 +200,7 @@ header{
     margin-top: 3%;
 }
 
-#UserInfo h2{
+#UserInfo h2 {
     margin-top: 3%;
     margin-left: 5%;
 
@@ -213,7 +213,7 @@ header{
     color: #000;
 }
 
-#UserInfo p{
+#UserInfo p {
     font-family: 'Fredoka', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -227,7 +227,7 @@ a {
     text-decoration: none;
 }
 
-.container_tab{
+.container_tab {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -243,7 +243,7 @@ a {
     width: 1037px;
     box-sizing: border-box;
 }
-  
+
 #messages {
     height: 50px;
     width: 50px;
@@ -259,8 +259,8 @@ a {
     background-size: cover;
     background-position: center;
     border: none;
-    width: 50px; 
-    height: 50px; 
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 

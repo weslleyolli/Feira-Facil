@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="../styles/styleChatBancas.css">
     <title>Chat - Banca do Antonio</title>
 </head>
+
 <body>
     <div class="background">
         <header>
@@ -22,7 +24,7 @@
                 </div>
             </div>
             <img id="LogoUser" src="../assets/bancaAntonio/LogoUser.svg" alt="Usuário" onclick="mostrarUser()">
-            <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat">
+            <img id="LogoChat" src="../assets/bancaAntonio/LogoChat.svg" alt="Chat" href="/pages/chatBancas.html">
         </header>
     </div>
     <main>
@@ -33,15 +35,22 @@
                     <img id="LogoConfig" src="../assets/bancaAntonio/LogoConfig.svg" alt="Configurações">
                     <p>Meus dados</p>
                 </div>
-                <a href="login.html"><div class="Sair">
-                    <img id="LogoExit" src="../assets/bancaAntonio/LogoExit.svg" alt="Sair">
-                    <p>Sair</p>
-                </div></a>
+                <a href="login.html">
+                    <div class="Sair">
+                        <img id="LogoExit" src="../assets/bancaAntonio/LogoExit.svg" alt="Sair">
+                        <p>Sair</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="back">
-            <img id="Back" src="../assets/bancaAntonio/LogoBack.svg" alt="Voltar">
-            <a href="./categories.html"><h1>Voltar</h1></a>
+            <a href="./categories.html">
+                <img id="Back" src="../assets/bancaAntonio/LogoBack.svg" alt="Voltar">
+            </a>
+
+            <a href="./categories.html">
+                <h1>Voltar</h1>
+            </a>
             <div id="line"></div>
         </div>
         <div id="banca" class="container">
@@ -49,7 +58,7 @@
             <h1 class="nome_barraca">Banca do Antônio</h1>
             <h2 class="banca_chat">Mas é claro!</h2>
             <div id="line2"></div>
-          </div>
+        </div>
         <div class="container2">
             <img id="Banca_Antonio" src="../assets/bancaAntonio/ProfileBanca2.png" alt="Bandejas do Orlando">
             <h1 class="nome_barraca">Bandejas do Orlando</h1>
@@ -57,7 +66,8 @@
             <div id="line2"></div>
         </div>
     </main>
-</div>
+    </div>
     <script src="../js/scriptBancasChat.js"></script>
 </body>
+
 </html>

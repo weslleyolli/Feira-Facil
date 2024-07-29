@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Made%20by&message=Weslley&color=white&labelColor=8257E5" alt="Made by Rocketseat">
+  <img src="https://img.shields.io/static/v1?label=Made%20by&message=GroupFeiraFacil&color=white&labelColor=8257E5" alt="Made by...">
   <img src="https://img.shields.io/github/forks/weslleyolli/freeway?label=forks&message=MIT&color=white&labelColor=8257E5" alt="Forks">
   <img src="https://img.shields.io/github/stars/weslleyolli/Feira-Facil?label=stars&message=MIT&color=white&labelColor=8257E5" alt="Stars">
 </p>
